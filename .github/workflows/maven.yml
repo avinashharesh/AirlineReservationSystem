@@ -30,7 +30,7 @@ jobs:
     - name: List the current directory
       run: ls -a
     - name: What is in the target folder
-      run: 
+      run: |
           cd target
           ls -a
 
